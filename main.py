@@ -10,8 +10,6 @@ def filter_greater(arr, vaule):
 
     return new_arr
 
-print(filter_greater(arr, 5))
-
 def filter_less(arr, vaule):
 
     new_arr = []
@@ -21,8 +19,6 @@ def filter_less(arr, vaule):
             new_arr.append(number)
 
     return new_arr
-
-print(filter_less(arr, 5))
 
 def filter_equal(arr, vaule):
 
@@ -34,8 +30,6 @@ def filter_equal(arr, vaule):
 
     return new_arr
 
-print(filter_equal(arr, 5))
-
 def filter_not_equal(arr, vaule):
 
     new_arr = []
@@ -45,5 +39,3 @@ def filter_not_equal(arr, vaule):
             new_arr.append(number)
 
     return new_arr
-
-print(filter_not_equal(arr, 5))
