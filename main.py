@@ -48,3 +48,20 @@ def test():
     print(filter_not_equal(arr, 5))
 
 print(test())
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+def triangle_for_matrix(matrix):
+    
+    sum = 0
+
+    for i in range(0, len(matrix)):
+        sum += matrix[i][i + i]
+
+    return sum
+
+print(triangle_for_matrix(matrix))
