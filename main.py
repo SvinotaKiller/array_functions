@@ -11,3 +11,15 @@ def filter_greater(arr, vaule):
     return new_arr
 
 print(filter_greater(arr, 5))
+
+def filter_less(arr, vaule):
+
+    new_arr = []
+
+    for number in arr:
+        if number < vaule:
+            new_arr.append(number)
+
+    return new_arr
+
+print(filter_less(arr, 5))
